@@ -43,3 +43,8 @@ This tutorial assumes you have access to the [Google Cloud Platform](https://clo
 * [Deploying the DNS Cluster Add-on](docs/12-dns-addon.md)
 * [Smoke Test](docs/13-smoke-test.md)
 * [Cleaning Up](docs/14-cleanup.md)
+
+## TODO
+* update instance type - 1vcpu is more than enough
+* remove the need for external ip addresses, since gcp charges for those
+* workers and controllers since communicate via private ip address
